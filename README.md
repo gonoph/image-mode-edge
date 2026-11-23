@@ -112,3 +112,7 @@ After booting a target VM or edge device from `./output/bootiso/install.iso`, ve
 The AI tool, Gemini, helped me convert the toml file to a Containerfile, where I was able to customize it for the current environment and task.
 
 Gemini also assisted me in summarizing the conversation and created this Readme.md
+
+# TODO
+
+Here's a [List of Things Left TODO](TODO.md)
