@@ -1,6 +1,6 @@
 # Migrating RHEL 9 for Edge to RHEL 9 Image Mode (`bootc`)
 
-This repository documents the migration of an existing **RHEL 9 for Edge** (`rpm-ostree` + Image Builder) deployment pipeline (`CO_Edge_9`) to **RHEL 9 Image Mode** (`bootc` + `bootc-image-builder`).
+This repository documents the migration of an existing **RHEL 9 for Edge** (`rpm-ostree` + Image Builder) deployment pipeline (`Edge9`) to **RHEL 9 Image Mode** (`bootc` + `bootc-image-builder`).
 
 ## Why Migrate to Image Mode?
 
@@ -12,7 +12,7 @@ While RHEL 9 for Edge and RHEL 9 Image Mode share the exact same runtime OSTree 
 
 | File | Description |
 | :--- | :--- |
-| **`edge9.toml`** | The original Image Builder TOML blueprint (`CO_Edge_9` v0.0.10 targeting `rhel-9.6`). |
+| **`edge9.toml`** | The original Image Builder TOML blueprint (`Edge9` v0.0.10 targeting `rhel-9.6`). |
 | **`ostree.sh`** | Legacy build script invoking `composer-cli compose start-ostree edge9 edge-installer`. |
 | **`Containerfile`** | Production RHEL 9.6 Image Mode definition translated from `edge9.toml`, including `greenboot`, `fdo-client`, `clevis`/TPM2, `fapolicyd`, `gnome-kiosk`, and custom registry CA trust. |
 | **`Containerfile.edge2bootc`** | Minimal reference `Containerfile` demonstrating how to recreate a baseline RHEL for Edge equivalent (`greenboot` + `fdo-client`) from `rhel9/rhel-bootc`. |
