@@ -1,0 +1,9 @@
+[customizations.installer.kickstart]
+contents = """
+# Example: Unattended disk partitioning and FDO/network setup
+zerombr
+clearpart --all --initlabel --disklabel=gpt
+reqpart --add-boot
+part / --fstype="xfs" --grow
+network --bootproto=dhcp --activate
+"""

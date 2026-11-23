@@ -1,0 +1,94 @@
+name = "edge9"
+description = "prod_edge_blueprint"
+version = "0.0.10"
+distro = "rhel-9.6"
+[[packages]]
+name = "abattis-cantarell-fonts"
+version = "*"
+[[packages]]
+name = "aide"
+version = "*"
+[[packages]]
+name = "audispd-plugins"
+version = "*"
+[[packages]]
+name = "clevis"
+version = "*"
+[[packages]]
+name = "clevis-luks"
+version = "*"
+[[packages]]
+name = "clevis-pin-tpm2"
+version = "*"
+[[packages]]
+name = "clevis-systemd"
+version = "*"
+[[packages]]
+name = "clevis-udisks2"
+version = "*"
+[[packages]]
+name = "fapolicyd"
+version = "*"
+[[packages]]
+name = "fapolicyd-selinux"
+version = "*"
+[[packages]]
+name = "gdm"
+version = "*"
+[[packages]]
+name = "glibc-langpack-en"
+version = "*"
+[[packages]]
+name = "gnome-kiosk"
+version = "*"
+[[packages]]
+name = "gnome-kiosk-script-session"
+version = "*"
+[[packages]]
+name = "gnome-terminal"
+version = "*"
+[[packages]]
+name = "libXScrnSaver"
+version = "*"
+[[packages]]
+name = "logrotate"
+version = "*"
+[[packages]]
+name = "nss-tools"
+version = "*"
+[[packages]]
+name = "rpm-plugin-fapolicyd"
+version = "*"
+[[packages]]
+name = "rsyslog"
+version = "*"
+[[packages]]
+name = "urw-base35-fonts"
+version = "*"
+[[packages]]
+name = "usbutils"
+version = "*"
+[[packages]]
+name = "xorg-x11-fonts-Type1"
+version = "*"
+[[packages]]
+name = "xorg-x11-server-Xorg"
+version = "*"
+[[packages]]
+name = "ansible-core"
+version = "*"
+[[packages]]
+name = "insights-client"
+version = "*"
+[[packages]]
+name = "subscription-manager-plugin-ostree"
+version = "*"
+[[packages]]
+name = "subscription-manager"
+version = "*"
+[[packages]]
+name = "rhc"
+version = "*"
+[[packages]]
+name = "rhc-worker-playbook"
+version = "*"
